@@ -156,6 +156,7 @@
 					display: block;
 					letter-spacing: 2px;
 					clear: both;
+					border-radius: 50px;
 				}
 				.consent{
 					clear: both;
@@ -178,7 +179,7 @@
 			}
 		}
 		.main_foot{
-			@include size(1236px,139px,null);
+			@include size(1236px,259px,null);
 			overflow: hidden;
 			p{
 				@include font(16px,null,#333);
